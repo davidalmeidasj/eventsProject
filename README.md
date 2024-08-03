@@ -78,6 +78,7 @@ This project is a php 7 project with docker and mysql
 - Run tests:
 
    ```bash
+   sudo apt-get install php-xml php-json php-mbstring
    composer run-script test
 
 - Stop and Remove Containers:
